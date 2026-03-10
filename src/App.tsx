@@ -39,7 +39,7 @@ export default function App() {
   };
 
   return (
-    <div className="w-full h-screen overflow-hidden bg-[#F6F7FB] font-sans">
+    <div className="w-full min-h-screen bg-[#F6F7FB] font-sans">
       {screen === "menu" && (
         <MainMenu
           onPlay={() => {

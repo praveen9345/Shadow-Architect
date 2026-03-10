@@ -27,9 +27,7 @@ export default function MainMenu({ onPlay, onLevels }: MainMenuProps) {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="z-10 flex flex-col items-center mb-16"
       >
-        <div className="w-32 h-32 mb-6 rounded-3xl overflow-hidden shadow-2xl">
-          <img src="/icon.png" alt="Shadow Architect Icon" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
-        </div>
+        <img src="/icon.svg" alt="Shadow Architect Icon" className="w-24 h-24 mb-6 drop-shadow-2xl" />
         <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tighter text-center">
           Shadow <br />
           <span className="text-indigo-600">Architect</span>
