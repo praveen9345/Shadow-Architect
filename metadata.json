@@ -1,0 +1,5 @@
+{
+  "name": "Shadow Architect",
+  "description": "A relaxing, minimalistic 2D puzzle game where players place and rotate geometric objects and lights to produce a shadow that matches a target silhouette.",
+  "requestFramePermissions": []
+}
