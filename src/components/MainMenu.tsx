@@ -27,8 +27,8 @@ export default function MainMenu({ onPlay, onLevels }: MainMenuProps) {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="z-10 flex flex-col items-center mb-16"
       >
-        <div className="w-24 h-24 bg-slate-900 rounded-3xl shadow-2xl mb-6 flex items-center justify-center transform rotate-12">
-          <div className="w-12 h-12 bg-white rounded-lg transform -rotate-12 opacity-80"></div>
+        <div className="w-32 h-32 mb-6 rounded-3xl overflow-hidden shadow-2xl">
+          <img src="/icon.png" alt="Shadow Architect Icon" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
         </div>
         <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tighter text-center">
           Shadow <br />
